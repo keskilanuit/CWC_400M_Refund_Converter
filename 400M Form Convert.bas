@@ -1,4 +1,4 @@
-Attribute VB_Name = "Module2"
+
 Sub Retrieve_Data_from_400M()
 
     Dim wb As Workbook
@@ -13,7 +13,7 @@ Sub Retrieve_Data_from_400M()
     'Assuming data is on the first sheet of the selected workbook
     Set ws = wb.Sheets(1)
     
-    'Find the last row with data in column A
+    'Find the last row with data in column U
     lastRow = ws.Cells(ws.Rows.Count, "U").End(xlUp).row
     
     'Loop through all rows with data
